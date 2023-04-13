@@ -205,7 +205,12 @@ header.shadow {
   border-radius: 0.5rem;
 }
 
+.about-div{
+  margin-bottom: 100px;
+}
+
 .about-text p {
+  margin-bottom: 50px;
   font-size: var(--p-font);
   font-weight: 400;
   text-align: justify;
@@ -622,4 +627,9 @@ section {
   width: 300px;
   margin: 1rem 0 2rem;
 }
+}
+@media (max-width: 1300px){
+  .about-div{
+    display:none;
+  }
 }
